@@ -97,5 +97,12 @@ i{
 
 #foot{
   background-color: black;
-  width: 40px;
+  height: 100px;
+  
+}
+
+#innerfooter{
+  color: #fff;
+  text-align: center;
+padding: 30px;
 }
