@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <nav class="navbar">
+
+    <div class="logo">
+      <a href="index.html"><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt="Ajio Logo" /></a>
+    </div>
+
+    <ul class="nav-links">
+
+
+
+        <li class="dropdown">
+        <a href="#">MEN</a>
+        <ul class="dropdown-menu">
+          <li><a href="mens.html">T-Shirts</a></li>
+          <li><a href="mens.html">Shirts</a></li>
+        
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#">WOMEN</a>
+        <ul class="dropdown-menu">
+
+
+            <li><a href="womens.html">Kurtas</a></li>
+          <li><a href="womens.html">Jeans</a></li>
+          <li><a href="womens.html">Heels</a></li>
+
+        </ul>
+      </li>
+      <li><a href="#">KIDS</a></li>
+      <li><a href="#">NEW</a></li>
+      <li><a href="#">HOME & KITCHEN</a></li>
+    </ul>
+
+    <div class="icons">
+
+        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/like--v1.png" alt="Wishlist" /></a>
+      <a href="addtocart.html"><img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-bag--v1.png" alt="Bag" /></a>
+
+      <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/000000/user--v1.png" alt="User" /></a>
+    </div>
+
+
+
+</nav>
+  <div class="cart">
+    <h2>💳 Payment</h2>
+    <form action="success.html" method="get">
+      <label>Cardholder Name</label><br>
+      <input type="text" placeholder="John Doe" required><br><br>
+
+      <label>Card Number</label><br>
+      <input type="text" placeholder="1234 5678 9012 3456" maxlength="16" required><br><br>
+
+      <label>Expiry Date</label><br>
+      <input type="text" placeholder="MM/YY" maxlength="5" required><br><br>
+
+      <label>CVV</label><br>
+      <input type="password" placeholder="123" maxlength="3" required><br><br>
+
+      <button type="submit" class="button">Pay ₹1,199</button>
+    </form>
+  </div>
+</body>
+</html>
